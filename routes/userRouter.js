@@ -3,6 +3,8 @@ const router = new Router()
 
 router.post('/registration',)
 router.post('/login',)
-router.get('/auth',)
+router.post('/logout',)
+router.get('/profile',)
+router.get('/timer')
 
 module.exports = router
